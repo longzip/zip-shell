@@ -3,13 +3,13 @@ import CountUp from 'react-countup'
 import Group from '@material-ui/icons/Group'
 import React, { Component } from 'react'
 import { Activity } from '../../../../src'
-import { GitHubIcon } from 'rmw-shell/lib/components/Icons'
+import { GitHubIcon } from 'zip-shell/lib/components/Icons'
 import { Line, Bar, Doughnut } from 'react-chartjs-2'
 import { connect } from 'react-redux'
 import { injectIntl } from 'react-intl'
 import { withFirebase } from 'firekit-provider'
 import { withTheme } from '@material-ui/core/styles'
-import Scrollbar from 'rmw-shell/lib/components/Scrollbar'
+import Scrollbar from 'zip-shell/lib/components/Scrollbar'
 
 const currentYear = new Date().getFullYear()
 const daysPath = `/user_registrations_per_day/${currentYear}/${new Date().toISOString().slice(5, 7)}`

@@ -6,12 +6,12 @@ import config from '../../config'
 import configureStore from '../../store'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Provider } from 'react-redux'
-//import RootAsync from 'rmw-shell/lib/containers/Root'
+//import RootAsync from 'zip-shell/lib/containers/Root'
 
 const Loading = () => <LoadingComponent />
 
 export const RootAsync = Loadable({
-  loader: () => import('rmw-shell/lib/containers/Root'),
+  loader: () => import('zip-shell/lib/containers/Root'),
   loading: Loading
 })
 

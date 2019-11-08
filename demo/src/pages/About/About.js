@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import IconButton from '@material-ui/core/IconButton'
 import { injectIntl } from 'react-intl'
-import { GitHubIcon } from 'rmw-shell/lib/components/Icons'
-import Activity from 'rmw-shell/lib/containers/Activity'
-import Scrollbar from 'rmw-shell/lib/components/Scrollbar'
+import { GitHubIcon } from 'zip-shell/lib/components/Icons'
+import Activity from 'zip-shell/lib/containers/Activity'
+import Scrollbar from 'zip-shell/lib/components/Scrollbar'
 
 class About extends Component {
   // Sorry for using setState here but I have to remove 'marked' from the dependencies

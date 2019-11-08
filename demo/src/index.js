@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import { render } from 'react-dom'
 import configureStore from './store'
-import * as serviceWorker from 'rmw-shell/lib/utils/serviceWorker'
-import App from 'rmw-shell/lib'
+import * as serviceWorker from 'zip-shell/lib/utils/serviceWorker'
+import App from 'zip-shell/lib'
 import config from './config'
 import A2HSProvider from 'a2hs'
 

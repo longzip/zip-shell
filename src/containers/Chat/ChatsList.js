@@ -1,4 +1,4 @@
-import AltIconAvatar from 'rmw-shell/lib/components/AltIconAvatar'
+import AltIconAvatar from 'zip-shell/lib/components/AltIconAvatar'
 import Chat from '@material-ui/icons/Chat'
 import Delete from '@material-ui/icons/Delete'
 import Divider from '@material-ui/core/Divider'
