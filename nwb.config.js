@@ -6,6 +6,9 @@ module.exports = {
     esModules: true,
     umd: false
   },
+  devServer: {
+    disableHostCheck: true
+  },
   webpack: {
     html: {
       template: "demo/public/index.html"
